@@ -1,0 +1,90 @@
+.capitalize {
+  text-transform: capitalize;
+}
+
+.edit-btn-wrapper {
+  display: flex;
+  padding: 8px 12px;
+}
+
+.edit-btn-wrapper button {
+  flex-grow: 1;
+}
+
+.resume {
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  border: 16px solid #002D62;
+}
+
+.resume h1 {
+  padding: 0;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  color: #002D62;
+}
+
+h1 span {
+  font-size: 1rem;
+  font-weight: normal;
+  color: inherit;
+}
+
+.resume > div {
+  border-top: 2px solid;
+}
+
+.resume > .contact {
+  border: none;
+}
+
+.contact > div {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact p {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  color: rgba(0, 45, 98, 0.75);
+  font-size: 0.875rem;
+}
+
+h2 {
+  margin: 12px 0;
+}
+
+h3 {
+  margin: 4px 0;
+}
+
+.text-secondary {
+  color: rgba(0, 0, 0, 0.7);
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  gap: 8px;
+}
+
+li {
+  text-transform: uppercase;
+}
+
+@media (max-width: 500px) {
+  .contact > div, ul {
+    flex-direction: column;
+  }
+  .separator {
+    display: none;
+  }
+}

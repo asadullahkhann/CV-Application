@@ -1,0 +1,1 @@
+export default 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima similique quas praesentium est vitae repellendus rem asperiores pariatur corporis? Blanditiis, omnis. Nam animi placeat quisquam magni omnis voluptas aperiam possimus. ';
